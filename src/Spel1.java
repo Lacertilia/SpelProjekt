@@ -581,6 +581,7 @@ public class Spel1 {
             System.exit(1);
         }
 
+        System.out.println("Det blev lika!");
 
     }
 
