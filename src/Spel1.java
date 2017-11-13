@@ -176,6 +176,59 @@ public class Spel1 {
 
         System.out.println(nr1 + "|" + nr2 + "|" + nr3 + "\n-----\n" + nr4 + "|" + nr5 + "|" + nr6 + "\n-----\n" + nr7 + "|" + nr8 + "|" + nr9);
 
+        if(nr1 == 'X' && nr2 == 'X' && nr3 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr4 == 'X' && nr5 == 'X' && nr6 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr7 == 'X' && nr8 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr1 == 'X' && nr4 == 'X' && nr7 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr2 == 'X' && nr5 == 'X' && nr8 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr3 == 'X' && nr6 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr1 == 'X' && nr5 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr3 == 'X' && nr5 == 'X' && nr7 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        }
+
+
+        if(nr1 == 'O' && nr2 == 'O' && nr3 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr4 == 'O' && nr5 == 'O' && nr6 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr7 == 'O' && nr8 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr1 == 'O' && nr4 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr2 == 'O' && nr5 == 'O' && nr8 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr3 == 'O' && nr6 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr1 == 'O' && nr5 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr3 == 'O' && nr5 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        }
+
         val6 = scan.nextInt();
         while(val6 == val1 || val6 == val2 || val6 == val3 || val6 == val4 || val6 == val5) {
             System.out.println("Ruta upptagen, välj igen");
@@ -210,6 +263,59 @@ public class Spel1 {
         }
 
         System.out.println(nr1 + "|" + nr2 + "|" + nr3 + "\n-----\n" + nr4 + "|" + nr5 + "|" + nr6 + "\n-----\n" + nr7 + "|" + nr8 + "|" + nr9);
+
+        if(nr1 == 'X' && nr2 == 'X' && nr3 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr4 == 'X' && nr5 == 'X' && nr6 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr7 == 'X' && nr8 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr1 == 'X' && nr4 == 'X' && nr7 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr2 == 'X' && nr5 == 'X' && nr8 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr3 == 'X' && nr6 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr1 == 'X' && nr5 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr3 == 'X' && nr5 == 'X' && nr7 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        }
+
+
+        if(nr1 == 'O' && nr2 == 'O' && nr3 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr4 == 'O' && nr5 == 'O' && nr6 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr7 == 'O' && nr8 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr1 == 'O' && nr4 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr2 == 'O' && nr5 == 'O' && nr8 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr3 == 'O' && nr6 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr1 == 'O' && nr5 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr3 == 'O' && nr5 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        }
 
         val7 = scan.nextInt();
         while(val7 == val1 || val7 == val2 || val7 == val3 || val7 == val4 || val7 == val5 || val7 == val6) {
@@ -246,6 +352,59 @@ public class Spel1 {
 
         System.out.println(nr1 + "|" + nr2 + "|" + nr3 + "\n-----\n" + nr4 + "|" + nr5 + "|" + nr6 + "\n-----\n" + nr7 + "|" + nr8 + "|" + nr9);
 
+        if(nr1 == 'X' && nr2 == 'X' && nr3 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr4 == 'X' && nr5 == 'X' && nr6 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr7 == 'X' && nr8 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr1 == 'X' && nr4 == 'X' && nr7 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr2 == 'X' && nr5 == 'X' && nr8 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr3 == 'X' && nr6 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr1 == 'X' && nr5 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr3 == 'X' && nr5 == 'X' && nr7 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        }
+
+
+        if(nr1 == 'O' && nr2 == 'O' && nr3 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr4 == 'O' && nr5 == 'O' && nr6 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr7 == 'O' && nr8 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr1 == 'O' && nr4 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr2 == 'O' && nr5 == 'O' && nr8 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr3 == 'O' && nr6 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr1 == 'O' && nr5 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr3 == 'O' && nr5 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        }
+
         val8 = scan.nextInt();
         while(val8 == val1 || val8 == val2 || val8 == val3 || val8 == val4 || val8 == val5 || val8 == val6 || val8 == val7) {
             System.out.println("Ruta upptagen, välj igen");
@@ -280,6 +439,59 @@ public class Spel1 {
         }
 
         System.out.println(nr1 + "|" + nr2 + "|" + nr3 + "\n-----\n" + nr4 + "|" + nr5 + "|" + nr6 + "\n-----\n" + nr7 + "|" + nr8 + "|" + nr9);
+
+        if(nr1 == 'X' && nr2 == 'X' && nr3 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr4 == 'X' && nr5 == 'X' && nr6 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr7 == 'X' && nr8 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr1 == 'X' && nr4 == 'X' && nr7 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr2 == 'X' && nr5 == 'X' && nr8 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr3 == 'X' && nr6 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr1 == 'X' && nr5 == 'X' && nr9 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        } if(nr3 == 'X' && nr5 == 'X' && nr7 == 'X'){
+            System.out.println("Player 1 Wins");
+            System.exit(1);
+        }
+
+
+        if(nr1 == 'O' && nr2 == 'O' && nr3 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr4 == 'O' && nr5 == 'O' && nr6 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr7 == 'O' && nr8 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr1 == 'O' && nr4 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr2 == 'O' && nr5 == 'O' && nr8 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr3 == 'O' && nr6 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr1 == 'O' && nr5 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        } if(nr3 == 'O' && nr5 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
+            System.exit(1);
+        }
 
         val9 = scan.nextInt();
         while(val9 == val1 || val9 == val2 || val9 == val3 || val9 == val4 || val9 == val5 || val9 == val6 || val9 == val7 || val9 == val8) {
@@ -349,23 +561,23 @@ public class Spel1 {
         } if(nr4 == 'O' && nr5 == 'O' && nr6 == 'O'){
             System.out.println("Player 2 Wins");
             System.exit(1);
-        } if(nr7 == 'X' && nr8 == 'X' && nr9 == 'X'){
-            System.out.println("Player 1 Wins");
+        } if(nr7 == 'O' && nr8 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
             System.exit(1);
-        } if(nr1 == 'X' && nr4 == 'X' && nr7 == 'X'){
-            System.out.println("Player 1 Wins");
+        } if(nr1 == 'O' && nr4 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
             System.exit(1);
-        } if(nr2 == 'X' && nr5 == 'X' && nr8 == 'X'){
-            System.out.println("Player 1 Wins");
+        } if(nr2 == 'O' && nr5 == 'O' && nr8 == 'O'){
+            System.out.println("Player 2 Wins");
             System.exit(1);
-        } if(nr3 == 'X' && nr6 == 'X' && nr9 == 'X'){
-            System.out.println("Player 1 Wins");
+        } if(nr3 == 'O' && nr6 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
             System.exit(1);
-        } if(nr1 == 'X' && nr5 == 'X' && nr9 == 'X'){
-            System.out.println("Player 1 Wins");
+        } if(nr1 == 'O' && nr5 == 'O' && nr9 == 'O'){
+            System.out.println("Player 2 Wins");
             System.exit(1);
-        } if(nr3 == 'X' && nr5 == 'X' && nr7 == 'X'){
-            System.out.println("Player 1 Wins");
+        } if(nr3 == 'O' && nr5 == 'O' && nr7 == 'O'){
+            System.out.println("Player 2 Wins");
             System.exit(1);
         }
 
