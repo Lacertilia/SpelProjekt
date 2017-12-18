@@ -6,6 +6,16 @@ public class Spel1 {
         char nr1 = ' ', nr2 = ' ', nr3 = ' ', nr4 = ' ', nr5 = ' ', nr6 = ' ', nr7 = ' ', nr8 = ' ', nr9 = ' ';
         int val1, val2, val3, val4, val5, val6, val7, val8, val9;
 
+        System.out.println("A Babz Produczion");
+        try
+        {
+            Thread.sleep(5000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+
         System.out.println( "1|2|3" + "\n-----\n" + "4|5|6" + "\n-----\n" + "7|8|9\nVälj en ruta.");
 
         val1 = scan.nextInt();
